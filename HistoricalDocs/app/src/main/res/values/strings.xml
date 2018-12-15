@@ -1,0 +1,12 @@
+<resources>
+<string name="app_name">Historical Docs</string>
+
+<string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+
+<string name="action_settings">Settings</string>
+
+<string name="about_fragment_text">This app was written by Matt Boutell and Tyler Rockwood. Choose docs from the menu to see a list of titles of historical documents.
+    Click on any title in the list to see the text of that document.</string>
+
+</resources>
