@@ -5,14 +5,14 @@
         <item
                 android:id="@+id/nav_about"
                 android:icon="@android:drawable/ic_dialog_info"
-                android:title="About" />
+                android:title="@string/nav_about" />
         <item
                 android:id="@+id/nav_docs"
                 android:icon="@android:drawable/ic_dialog_email"
-                android:title="Docs" />
+                android:title="@string/nav_docs" />
         <item
                 android:id="@+id/nav_settings"
                 android:icon="@android:drawable/ic_menu_preferences"
-                android:title="Settings" />
+                android:title="@string/nav_settings" />
     </group>
 </menu>

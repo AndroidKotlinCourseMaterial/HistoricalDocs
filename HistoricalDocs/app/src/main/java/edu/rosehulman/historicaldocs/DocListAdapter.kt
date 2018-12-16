@@ -3,9 +3,12 @@ package edu.rosehulman.historicaldocs
 import android.content.Context
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.row_view_doc.view.*
 
-class DocListAdapter(var context: Context) : RecyclerView.Adapter<DocViewHolder>() {
+class DocListAdapter(var context: Context?) : RecyclerView.Adapter<DocViewHolder>() {
+
     var docs = ArrayList<Doc>()
 
     init {

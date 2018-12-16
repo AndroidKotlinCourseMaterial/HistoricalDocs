@@ -7,7 +7,7 @@ import org.apache.commons.io.IOUtils
 
 
 object DocUtils {
-    fun loadDocs(context: Context): ArrayList<Doc> {
+    fun loadDocs(context: Context?): ArrayList<Doc> {
         val titles = arrayOf(
             "Ten Commandments",
             "The Suffering Servant",
@@ -32,7 +32,7 @@ object DocUtils {
         )
         val docs = ArrayList<Doc>()
         for (i in titles.indices) {
-            val stream = context.resources.openRawResource(resources[i])
+            val stream = context?.resources?.openRawResource(resources[i])
             var s: String? = null
             try {
                 s = IOUtils.toString(stream)
