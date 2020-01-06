@@ -1,6 +1,6 @@
 package edu.rosehulman.historicaldocs
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.View
 import android.widget.TextView
 import kotlinx.android.synthetic.main.row_view_doc.view.*
